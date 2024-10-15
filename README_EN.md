@@ -6,11 +6,11 @@
 
 
 
-Our paper has been successfully accepted by PACLIC2023 main meeting
+Our paper was published in PACLIC2023
 
 ## Overview 
 
-To promote the research of literary NER, we build the largest multi-genre literary NER corpus containing
+To promote the research of literary NER, we build a multi-genre literary NER corpus containing
 263,135 entities in 105,851 sentences from 260 online Chinese novels spanning 13 different genres. 
 
 Based on the corpus, we investigate characteristics of entities from different genres. We conduct several baseline NER models and conduct cross-genre and cross-domain experiments. Experimental results show that genre difference significantly impact NER performance though not as much as domain difference like literary domain and news domain.
@@ -19,7 +19,7 @@ For more details about our work, please refer to our paper:[A Corpus for Named E
 
 ## Update
 
-- [x] [2024/10/14] Dataset is now open source
+- [x] [2024/10/14] Dataset is now open-source
 
 ## Dataset
 
@@ -33,7 +33,7 @@ For each genre, we crawl the top 20 works from the genre’s collection list (as
 
 - Omit single-character entities.
 - Nested entities are ignored, only the longest external entity is annotated.
-- Entities compose of a central noun without quantifiers, pronouns, adjective modifiers, etc.
+- Entities are composed of a central noun without quantifiers, pronouns, adjective modifiers, etc.
 - An entity must refer to a specific entity in the novel.
 
 
